@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC-Calculator</title>
+    <link rel="stylesheet" href="calculadoraIMC.css">
+</head>
+
+<body>
+    <script src="calculadoraIMC.js" defer></script>
+
+    <div class="MainPage">
+
+        <h1 id="title">Sua calculdora de IMC</h1>
+        <input type="number" id="peso" placeholder="Digite a massa em Kg.">
+        <input type="number" id="altura" placeholder="Digite a altura em metros.">
+        <button type="button" id="botao" onclick="calcular()">Calcular</button>
+        <button type="button" id="limpar" onclick="limpar()">Limpar</button>
+
+        <div class="output">O resultado de seu IMC é: <span id="output"> </span></div>
+    </div>
+</body>
+
+</html>
