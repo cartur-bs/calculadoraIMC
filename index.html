@@ -12,13 +12,20 @@
 <body>
     <script src="calculadoraIMC.js" defer></script>
 
+    <a href="https://github.com/cartur-bs/calculadoraIMC" target="_blank"><img src="../Portfolio/github.png"
+            alt="Ícone do Github" id="iconeGithub"></a>
+
     <div class="MainPage">
 
         <h1 id="title">Sua calculdora de IMC</h1>
         <input type="number" id="peso" placeholder="Digite a massa em Kg.">
         <input type="number" id="altura" placeholder="Digite a altura em metros.">
-        <button type="button" id="botao" onclick="calcular()">Calcular</button>
-        <button type="button" id="limpar" onclick="limpar()">Limpar</button>
+
+        <div class="botoes">
+            <button type="button" id="botao" onclick="calcular()">Calcular</button>
+            <button type="button" id="limpar" onclick="limpar()">Limpar</button>
+        </div>
+
 
         <div class="output">O resultado de seu IMC é: <span id="output"> </span></div>
     </div>

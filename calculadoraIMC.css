@@ -1,20 +1,20 @@
-body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
+#iconeGithub {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: -.2rem;
 }
 
 .MainPage {
     border-radius: 25px;
     display: block;
-    margin-top: 7%;
+    margin: 7% 25%;
     padding: 50px;
     background-color: darkblue;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
 }
 
 #peso {
@@ -30,6 +30,10 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.botoes{
+    display: inline-block;
 }
 
 #botao {

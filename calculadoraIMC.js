@@ -13,3 +13,4 @@ const limpar = () => {
     document.getElementById('peso').value = '';
     document.getElementById('altura').value = '';
 }
+
