@@ -12,5 +12,6 @@ const calcular = () => {
 const limpar = () => {
     document.getElementById('peso').value = '';
     document.getElementById('altura').value = '';
+    document.getElementById('output').innerHTML= '';
 }
 

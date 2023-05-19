@@ -1,7 +1,14 @@
+body{
+    background-color: #000;
+}
+
 #iconeGithub {
     width: 2.5rem;
     height: 2.5rem;
     margin: -.2rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 18px;
 }
 
 .MainPage {
@@ -32,7 +39,7 @@
     margin-bottom: 30px;
 }
 
-.botoes{
+.botoes {
     display: inline-block;
 }
 
@@ -83,4 +90,26 @@
 h1 {
     display: block;
     color: white;
+}
+
+@media (max-width: 1200px) {
+    .MainPage {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .MainPage {
+        margin: 15% 4%;
+        width: 15rem;
+    }
+
+    #botao {
+        padding: 10px 20px;
+    }
+    #limpar{
+        padding: 10px 18px;
+     
+    }
+
 }
